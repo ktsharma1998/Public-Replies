@@ -1,0 +1,139 @@
+.reply-limit {
+  width: 370px;
+  height: 106px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-left: 16px;
+  padding: 0;
+
+  gap: 12px;
+
+  box-sizing: border-box;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* ---------------------------------
+   Heading + description
+---------------------------------- */
+
+.reply-limit__description {
+  width: 370px;
+  height: 54px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  margin: 0;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #8c919f;
+}
+
+.reply-limit__title {
+  color: #071329;
+}
+
+.reply-limit__hint {
+  color: #8c919f;
+}
+
+/* ---------------------------------
+   Selector
+---------------------------------- */
+
+.reply-limit__selector {
+  width: 370px;
+  height: 40px;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  background: rgba(233, 237, 237, 0.5);
+
+  border: 1.0101px solid #d3d8d8;
+  border-radius: 12.7273px;
+
+  backdrop-filter: blur(25.2525px);
+}
+
+/* ---------------------------------
+   Options
+---------------------------------- */
+
+.reply-limit__options {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2.51px 2.63px;
+
+  box-sizing: border-box;
+}
+
+.reply-limit__option {
+  position: relative;
+
+  width: 91.18px;
+  height: 32.73px;
+
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+
+  border: 0;
+  outline: none;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #8c919f;
+}
+
+.reply-limit__option--selected {
+  color: #000000;
+}
+
+.reply-limit__selected-bg {
+  position: absolute;
+
+  inset: 0;
+
+  background: #ffffff;
+
+  box-shadow:
+    0px 2.0202px 4.0404px rgba(0, 0, 0, 0.05);
+
+  border-radius: 8.27879px;
+
+  z-index: 0;
+}
+
+.reply-limit__option-text {
+  position: relative;
+
+  z-index: 1;
+}

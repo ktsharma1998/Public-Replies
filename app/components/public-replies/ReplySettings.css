@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+.reply-settings {
+  width: 402px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 16px 16px 0;
+  gap: 16px;
+
+  box-sizing: border-box;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* ---------------------------------
+   Publicly reply to comments
+---------------------------------- */
+
+.reply-settings__title {
+  width: 370px;
+  height: 18px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #1e2943;
+}
+
+/* ---------------------------------
+   Replies
+---------------------------------- */
+
+.reply-settings__replies {
+  width: 370px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 0;
+  gap: 12px;
+}
+
+.reply-settings__description {
+  width: 370px;
+  height: 36px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  margin: 0;
+}
+
+.reply-settings__replies-title {
+  width: 370px;
+  height: 18px;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #071329;
+}
+
+.reply-settings__replies-hint {
+  width: 370px;
+  height: 18px;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #8c919f;
+}
+
+/* ---------------------------------
+   Reply editor
+---------------------------------- */
+
+.reply-editor {
+  width: 370px;
+  height: 132.09px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 14px 0;
+  gap: 14px;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1.12687px solid #d3d8d8;
+  border-radius: 22px;
+
+  overflow: hidden;
+}
+
+/* ---------------------------------
+   Textarea
+---------------------------------- */
+
+.reply-editor__textarea {
+  width: 370px;
+  height: 49.52px;
+
+  display: block;
+
+  margin: 0;
+  padding: 6.76119px 13.5224px;
+
+  resize: none;
+
+  border: 0;
+  outline: 0;
+
+  background: transparent;
+
+  overflow: hidden;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #1e2943;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* ---------------------------------
+   Add Link
+---------------------------------- */
+
+.reply-editor__link-wrapper {
+  width: 370px;
+  height: 40.57px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 0;
+  gap: 10px;
+}
+
+.reply-editor__link-container {
+  width: 370px;
+  height: 40.57px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 0;
+  gap: 12px;
+}
+
+.reply-editor__link-row {
+  width: 370px;
+  height: 40.57px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 0 14px;
+
+  box-sizing: border-box;
+}
+
+.reply-editor__add-link {
+  width: 342px;
+  height: 40.57px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 9.01493px 13.5224px;
+  margin: 0 auto;
+
+  gap: 11.27px;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1.12687px solid #d3d8d8;
+  border-radius: 14px;
+
+  cursor: pointer;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #6a07e4;
+}
+
+.reply-editor__add-link-content {
+  width: 314.96px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0;
+  margin: 0;
+
+  gap: 17.01px;
+
+  flex: none;
+}
+
+.reply-editor__add-link-text {
+  width: 58px;
+  height: 18px;
+
+  flex: none;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #6a07e4;
+
+  white-space: nowrap;
+}
